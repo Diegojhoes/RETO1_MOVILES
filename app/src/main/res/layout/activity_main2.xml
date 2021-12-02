@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_anchor="@+id/frameLayout"
+        app:layout_anchorGravity="center">
+
+        <TableLayout
+            android:layout_width="452dp"
+            android:layout_height="1004dp">
+
+            <TableRow
+                android:layout_width="389dp"
+                android:layout_height="245dp">
+
+                <ImageView
+                    android:id="@+id/imageView25"
+                    android:layout_width="200dp"
+                    android:layout_height="246dp"
+                    app:srcCompat="@drawable/ic_logo1" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="180dp"
+                    android:layout_height="228dp"
+                    android:text="                                                                                                                                                                           CHAQUETA     BLAZER NEGRO                                        TALLAS   S  M  L                                                                              PRECIO  $150000"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="214dp">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="200dp"
+                    android:layout_height="240dp"
+                    app:srcCompat="@drawable/ic_logo2" />
+
+                <TextView
+                    android:id="@+id/texto2"
+                    android:layout_width="188dp"
+                    android:layout_height="227dp"
+                    android:text="                                                    CHAQUETA EN CUERO  LCHL33 NEGRA                            TALLA     S   L  M               PRECIO  $ 970000"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView27"
+                    android:layout_width="200dp"
+                    android:layout_height="240dp"
+                    app:srcCompat="@drawable/ic_logo" />
+
+                <TextView
+                    android:id="@+id/texto3"
+                    android:layout_width="198dp"
+                    android:layout_height="185dp"
+                    android:text="                                             CHAQUETA  VAQUERA AZUL             TALLA     S    L   M              PRECIO  $  280000"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </TableLayout>
+
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
